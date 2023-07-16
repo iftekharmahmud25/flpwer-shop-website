@@ -1,0 +1,519 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+}
+
+/* Banner secion start here */
+header {
+    background-color: #E554731A;
+    height: 650px;
+    
+}
+
+.banner-text h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 16px;
+}
+
+.banner-text p {
+    color: rgba(39, 39, 39, 0.60);
+    margin-bottom: 16px;
+}
+
+.banner-section {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.btn {
+    padding: 15px;
+    border-radius: 6px;
+    background-color: #E55473;
+    color: white;
+    border: none;
+    margin-top: 7px;
+
+}
+
+.btn:hover {
+    background: white;
+    color: #E55473;
+    border: 1px solid #E55473;
+}
+
+.banner-img {
+    padding-top: 15px;
+    width: 500px;
+    height: 635px;
+}
+
+/* Main section start from here */
+
+.features-section h2 {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.features-section>p {
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 35px;
+    color: rgba(39, 39, 39, 0.60);
+}
+
+.features-img {
+    text-align: center;
+    display: flex;
+    gap: 10px;
+
+    width: 65%;
+    margin: auto;
+}
+
+.img1 {
+    width: 230px;
+    height: 285px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 50px 20px 0 20px;
+}
+
+.img2 {
+    width: 230px;
+    height: 285px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 50px 20px 0 20px;
+}
+
+.img3 {
+    width: 230px;
+    height: 285px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 50px 20px 0 20px;
+}
+
+
+
+
+.features-content {
+    margin-bottom: 120px;
+}
+
+.features-content p {
+    text-decoration-line: underline;
+    margin-top: 20px;
+    font-size: 24px;
+    padding-top: 15px;
+}
+.price{
+  color: pink;
+}
+
+
+.services-section {
+    background-color: #2727270D;
+    /* width: 825px; */
+    width: 80%;
+    height: 30%;
+    margin-left: 220px;
+    margin-bottom: 90px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.services-section>p {
+    font-size: 12px;
+    text-align: center;
+
+
+
+}
+
+.service-text {
+    padding-top: 10px;
+}
+
+/* Deal section start */
+.deal-section {
+    width: 100%;
+    height: 320px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-bottom: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.deal-text h2 {
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+
+.deal-img img {
+    width: 250px;
+    height: 250px;
+}
+
+.deal-text p {
+    padding-bottom: 10px;
+    color: #27272799;
+
+}
+
+.deal-btn {
+    margin-left: 150px;
+    padding: 19px 30px;
+}
+
+.deals{
+    margin-left: 400px;
+     margin-top: 20px;
+
+}
+
+.social-section p {
+    text-align: center;
+    padding-top: 10px;
+    color: #27272799;
+    padding-bottom: 50px;
+}
+
+.social-img {
+    display: flex;
+    gap: 20px;
+    margin-left: 90px;
+    margin-bottom: 200px;
+    width: 242px;
+    height: 296px;
+}
+
+.latest-deal-section {
+    height: 249px;
+    background-image: url("./Flower\ Asset/Rectangle 9.png");
+    margin-bottom: 100px;
+
+
+
+
+}
+
+.latest-deal-section h1 {
+    padding-top: 35px;
+    text-align: center;
+    padding-bottom: 7px;
+
+}
+
+.latest-deal-section p {
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+
+
+/* Contact section start here */
+.contact-section {
+    width: 100%;
+    height: 450px;
+    background-color: #E554730D;
+    padding-top: 20px;
+    margin: auto;
+    text-align: center;
+
+}
+
+
+input {
+    /* width: 400px; */
+    width: 40%;
+    height: 45px;
+    border: none;
+    border-radius: 6px;
+    padding-left: 7px;
+    margin-right: 7px;
+
+}
+
+.contact-section p {
+    color: #27272799;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.your-name {
+    margin-top: 15px;
+}
+
+.your-message {
+    margin-top: 20px;
+    padding-top: 0px;
+    padding-bottom: 19px;
+
+}
+
+.submit {
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+}
+
+.submit:hover {
+    background: white;
+    color: #E55473;
+    border: 1px solid #E55473;
+
+}
+
+
+
+
+
+
+/* footer section star here */
+.footer-section {
+    width: 100%;
+    height: 180px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+
+
+
+
+
+}
+
+.footer-span {
+    color: #E55473;
+
+}
+
+.footer-section>p {
+    padding-top: 8px;
+
+}
+
+small p {
+    padding-top: 15px;
+    color: gray;
+}
+
+
+@media screen  and ( max-width : 576px ) {
+
+    header{
+        width: 100%;
+        height: 520px;
+        /* margin-left: 0px;
+        margin-right: 0px; */
+    }
+  .banner-section{
+     display: block;
+     /* width: 100%; */
+     padding: 10px;
+     margin-left: 0px;
+     margin-right: 0px;
+  }
+  .banner-text h1 {
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 16px;
+    /* margin-left: 20px; */
+    margin-right: 0px;
+  }
+
+.banner-text p {
+    color: rgba(39, 39, 39, 0.60);
+    margin-bottom: 8px;
+    width: 95%;
+    /* margin-left: 20px; */
+    margin-right: 0px;
+}
+.btn {
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 6px;
+    background-color: #E55473;
+    color: white;
+    border: none;
+    margin-top: 3px;
+
+}
+.banner-img {
+     margin-left: 25%; 
+    padding-top: 0px;
+    /* width: auto; */
+    width: 30%;
+    height: 260px;
+}
+/* banner section end here */
+
+
+/* features section start here */
+.features-section{
+    width: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.features-section h2 {
+    text-align: center;
+    margin-top: 25px;
+}
+.features-section>p {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+        margin-right: 0px;
+        
+
+}
+.features-img{
+    /* flex-direction: column;
+    width: 50%; */
+    display: block;
+    margin: auto;
+    
+}
+.img1 {
+    width: auto;
+    height: 225px;
+    
+    
+}
+.img2{
+    width: 45%;
+    height: 225px;
+    
+}
+.img3{
+    width: auto;
+    height: 225px;
+    
+}
+.features-content{
+    margin-bottom: 70px;
+}
+
+/* service section start */
+
+/* .services-section{
+    flex-direction: column;
+    width: 425px;
+    height: 370px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+} */
+
+.services-section{
+    margin-left: 0px;
+    margin-right: 0px;
+    width: auto;
+}
+
+
+
+
+/* deal section */
+
+.deal-section{
+    flex-direction: column;
+    height: 420px;  
+}
+.deal-text h2 {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.deal-btn {
+    margin-left: 2px;
+    padding: 15px 30px;
+}
+
+
+/* social section start here */
+
+/* .social-img{
+    flex-direction: column;
+    width: 200px;
+    height: 896px;
+    margin-left: 140px;
+} */
+
+.services-section{
+    /* height: 100%; */
+    height: 100%;
+}
+
+.social-img{
+    width: 25%;
+
+    flex-direction: column;
+    padding-bottom: 50%;
+    margin-left: 40%;
+}
+
+/* latest deal section */
+
+.deals{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.deal-input{
+   width: auto;
+   margin-left: 25%;
+   
+}
+
+
+.deal-section{
+    width: auto;
+}
+
+
+.social-section{
+    width: auto;
+}
+
+.latest-deal-section{
+    width: auto;
+}
+
+.contact-section{
+    width: auto;
+}
+.your-name{
+    width: auto;
+}
+
+.your-message{
+    width: auto;
+}
+
+.submit{
+    width: auto;
+    padding: 2%;
+
+}
+
+.footer-section{
+    width:100vw;
+    
+}
+
+}
